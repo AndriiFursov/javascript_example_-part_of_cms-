@@ -1,0 +1,259 @@
+/*------------------------------------*\
+    #SECTION-NEW-TOUR
+    Stylesheets for 
+    manager__new-tour.php
+\*------------------------------------*/
+/**
+ * #SECTION-TOUR-FULL-INFO
+ * Stylesheets for block with information
+ * about tour
+ * 
+ * #SECTION-HOTEL-INFO
+ * Stylesheets for block with information
+ * about hotel associated with tour
+ *
+ */
+ 
+/*------------------------------------*\
+    #SECTION-TOUR-FULL-INFO
+\*------------------------------------*/
+
+.hint-box--tour {
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    width: 560px;
+    height: 170px;
+    margin-top: 400px;
+}
+
+
+input[name="visa-v1"] {
+    width: 67px;
+}
+
+input[name="visa-v2"] {
+    width: 273px;
+}
+
+input[name="visa-v3"] {
+    width: 481px;
+}
+
+
+.new-hot-btn {
+    width: 110px;
+}
+
+button[onclick="submitNewTour();"] {
+    margin-left: 28px;
+}
+   
+   
+.hotels-anchors {
+    position: absolute;
+    top: 395px;
+    left: 650px;
+    width: 560px;
+    height: 146px;
+    overflow: auto;
+}
+
+    #hotels-anchors div {
+        text-decoration: underline;
+        color: #000080;
+        cursor: pointer;
+    }
+
+
+.promo-text {
+    position: absolute;
+    top: 565px;
+    left: 650px;
+    width: 560px;
+    height: 86px;
+}
+
+
+.change-promo-text {
+    position: absolute;
+    top: 712px;
+    left: 650px;
+}
+
+    .change-promo-text textarea {
+        width: 560px;
+        height: 98px;
+    }
+    
+    .change-promo-text .hint-img {
+        top: -87px;
+    }
+
+
+
+
+
+/*------------------------------------*\
+    #SECTION-HOTEL-INFO
+    1 - to clear floats
+\*------------------------------------*/
+
+.block-delimiter {
+    margin: 30px 0 20px;
+}
+
+
+/* photos */
+.photo-address {
+    width: 479px;
+}
+
+.galery {
+    float: right;
+    width: 544px;
+    min-height: 100px;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+
+    #galery-photo>img {
+        border: 1px solid  rgba(169,169,169,1);
+        border-radius: 3px;
+        margin: 2px;
+    }
+
+
+/*  hotel description  */
+.hotel-info>div, .hotel-info>fieldset {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.site {
+    width: 479px;
+}
+
+.note {
+    min-width: 1150px;
+}
+    
+    .decor {
+        float: left;
+        width: 140px;
+    }
+    
+        .decor>div {
+            float: left;
+            width: 30px;
+            height: 30px;
+            font-size: 1.3em;
+            text-align: center;
+            cursor: pointer;
+            margin: 0 5px 10px 0;
+        }
+        
+        .decor>div:hover {
+            border: 1px solid rgba(169,169,169,1);
+            border-radius: 3px;
+        }
+        
+        .decor>div:nth-child(n+5):nth-child(-n+6){
+            width: 140px;
+        }
+
+    
+    #description-result,
+    [name="hotel-description"] {
+        float: left;
+        width: 480px;
+        height: 590px;
+        padding: 5px;
+    }
+
+    [name="hotel-description"] {
+        margin-left: 15px;
+    }
+    
+    #description-result {
+        margin-left: 10px;
+        border: 1px solid rgba(169,169,169,1);
+        border-radius: 3px;
+        overflow: auto;
+    }
+    
+        #description-result ul {
+            list-style: disc outside;
+            margin: 20px;
+            padding: 0;
+        }
+        
+     
+    .note>fieldset {
+        float: left;
+        width: 480px;
+        margin: 10px 0 0 10px;        
+    }     
+        
+
+/*  distances  */     
+.distances   {
+    float: left;
+    width: 634px;
+    padding-right: 0;
+}
+
+    .dist-col1 {
+        width: 137px;
+        text-align: right;
+        padding-right: 10px;
+        margin: 0 4px 0 0;
+    }
+    
+    .location {
+        width: 305px;
+        margin-right: 5px;
+    }
+    
+    .distance {
+        width: 100px;
+        margin-right: 4px;
+    }
+    
+    .units {
+        width: 43px;
+    }
+
+
+/*  building  */
+.building {
+    float: left;
+    width: 480px;
+    height: 118px;
+    padding-top: 15px;
+    margin-left: 7px;
+}
+        
+    
+/*  checkboxes container  */
+.checkboxes {
+    overflow: hidden; /* [1] */
+}
+
+    .checkboxes>* {
+        float: left;
+        width: 33%;
+    }
+
+.add-item {
+    clear: both;
+    margin-top: 15px;
+}
+
+.new-list-item {
+    width: 30%;
+}
+
+#restaurants .new-list-item, #bars .new-list-item {
+    width: 90%;
+}

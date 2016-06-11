@@ -1,0 +1,151 @@
+/*------------------------------------*\
+    #SECTION-TOURS
+    Stylesheets for 
+    manager__tours.php
+\*------------------------------------*/
+/**
+ * #SECTION-TOUR-FULL-INFO
+ * Stylesheets for block with information
+ * about tour
+ * 
+ * #SECTION-TOURS-LIST
+ * Stylesheets for block with table
+ * of all tours
+ *
+ */
+ 
+/*------------------------------------*\
+    #SECTION-TOUR-FULL-INFO
+\*------------------------------------*/
+
+#tourinfo-block>div, #tourinfo-block>ul, #tourinfo-block>fieldset {
+        margin: 15px 0px;
+}
+
+
+.hint-box--selectedTour {
+    position: absolute;
+    top: 315px;
+    left: 650px;
+    width: 560px;
+    height: 170px;
+}
+
+
+#tour-visa {
+    width: 485px;
+}
+
+input[name="visa"] {
+    width: 413px;
+}
+
+
+.promo-text {
+    position: absolute;
+    top: 533px;
+    left: 650px;
+}
+
+    .promo-text textarea {
+        font-size: 1.5em;
+        width: 560px;
+        height: 171px;
+    }
+    
+    .promo-text .hint-img {
+        top: -165px;
+    }
+
+
+
+
+
+/*------------------------------------*\
+    #SECTION-TOURS-LIST
+\*------------------------------------*/
+
+.change-tours {
+    margin-left: 940px;
+    width: 215px;
+}
+
+
+.table-wrapper {
+    min-height: 735px;
+    line-height: 1em;
+}
+
+.tours-table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(169,169,169,1);
+}
+
+    .tours-table tbody {
+        line-height: 0.8em;
+    }
+
+        .tours-table tbody tr:nth-child(2n-1) {
+            background-color: rgba(220,220,220,1); 
+        } 
+        
+            .tours-table td {
+                height: 35px;
+                text-align: center;
+            }
+        
+            .tours-table td:last-child {
+                border-left: 1px solid rgba(169,169,169,1);
+            } 
+            
+            .col-number {
+                width: 25px;
+            }
+            
+            .col-id {
+                width: 110px;
+            }
+            
+            .col-country {
+                width: 100px;
+            }
+            
+            .col-city {
+                width: 170px;
+            }
+            
+            .col-price {
+                width: 60px;
+            }
+            
+            .col-date {
+                width: 200px;
+            }
+            
+            .col-type {
+                width: 120px;
+            }
+            
+            .col-button {
+                width: 150px;
+            }
+            
+            .col-show {
+                width: 110px;
+            }
+            
+            .col-dell {
+                width: 110px;
+            }
+        
+
+        .sort {
+            cursor: pointer;
+            border-top: 1px solid transparent;
+            border-bottom: 1px solid transparent;
+        }
+        
+        .sort:hover {
+            border: 1px solid black;
+        }
